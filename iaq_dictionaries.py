@@ -685,116 +685,116 @@ VRP_TABLE_6_1 = {
     "Swimming (pool & deck)": {
         "Rp_cfm_per": 0, "Rp_Lps_per": 0, "Ra_cfm_ft2": 0.48, "Ra_Lps_m2": 2.4, "Default_Occ_Density_per_1000ft2": 0, "DeltaC_ppm": None, "Occupied_Standby_Allowed": None
     },
-    
+
     
     # Outpatient Health Care Facilities (ASHRAE 62.1 Table P-1)
     "Birthing room": {
-        "Rp": 10.0,
-        "Ra": 0.18,
+        "Rp_cfm_per": 10.0,
+        "Ra_cfm_ft2": 0.18,
         "Default_Occ_Density_per_1000ft2": 15,
         "Notes": "Outpatient health care"
     },
     "Class 1 imaging rooms": {
-        "Rp": 7.5,
-        "Ra": 0.12,
+        "Rp_cfm_per": 7.5,
+        "Ra_cfm_ft2": 0.12,
         "Default_Occ_Density_per_1000ft2": 5,
         "Notes": "Outpatient health care"
     },
     "Dental operatory": {
-        "Rp": 10.0,
-        "Ra": 0.18,
+        "Rp_cfm_per": 10.0,
+        "Ra_cfm_ft2": 0.18,
         "Default_Occ_Density_per_1000ft2": 20,
         "Notes": "Outpatient health care"
     },
     "General examination room": {
-        "Rp": 7.5,
-        "Ra": 0.12,
+        "Rp_cfm_per": 7.5,
+        "Ra_cfm_ft2": 0.12,
         "Default_Occ_Density_per_1000ft2": 20,
         "Notes": "Outpatient health care"
     },
     "Other dental treatment areas": {
-        "Rp": 5.0,
-        "Ra": 0.06,
+        "Rp_cfm_per": 5.0,
+        "Ra_cfm_ft2": 0.06,
         "Default_Occ_Density_per_1000ft2": 5,
         "Notes": "Outpatient health care"
     },
     "Physical therapy exercise area": {
-        "Rp": 20.0,
-        "Ra": 0.18,
+        "Rp_cfm_per": 20.0,
+        "Ra_cfm_ft2": 0.18,
         "Default_Occ_Density_per_1000ft2": 7,
         "Notes": "Outpatient health care"
     },
     "Physical therapy individual room": {
-        "Rp": 10.0,
-        "Ra": 0.12,
+        "Rp_cfm_per": 10.0,
+        "Ra_cfm_ft2": 0.12,
         "Default_Occ_Density_per_1000ft2": 20,
         "Notes": "Outpatient health care"
     },
     "Physical therapeutic pool area": {
-        "Rp": None,   # not given
-        "Ra": 0.48,
+        "Rp_cfm_per": None,   # not given
+        "Ra_cfm_ft2": 0.48,
         "Default_Occ_Density_per_1000ft2": None,
         "Notes": "Outpatient health care"
     },
     "Prosthetics and orthotics room": {
-        "Rp": 10.0,
-        "Ra": 0.18,
+        "Rp_cfm_per": 10.0,
+        "Ra_cfm_ft2": 0.18,
         "Default_Occ_Density_per_1000ft2": 20,
         "Notes": "Outpatient health care"
     },
     "Psychiatric consultation room": {
-        "Rp": 5.0,
-        "Ra": 0.06,
+        "Rp_cfm_per": 5.0,
+        "Ra_cfm_ft2": 0.06,
         "Default_Occ_Density_per_1000ft2": 20,
         "Notes": "Outpatient health care"
     },
     "Psychiatric examination room": {
-        "Rp": 5.0,
-        "Ra": 0.06,
+        "Rp_cfm_per": 5.0,
+        "Ra_cfm_ft2": 0.06,
         "Default_Occ_Density_per_1000ft2": 20,
         "Notes": "Outpatient health care"
     },
     "Psychiatric group room": {
-        "Rp": 5.0,
-        "Ra": 0.06,
+        "Rp_cfm_per": 5.0,
+        "Ra_cfm_ft2": 0.06,
         "Default_Occ_Density_per_1000ft2": 50,
         "Notes": "Outpatient health care"
     },
     "Psychiatric seclusion room": {
-        "Rp": 10.0,
-        "Ra": 0.12,
+        "Rp_cfm_per": 10.0,
+        "Ra_cfm_ft2": 0.12,
         "Default_Occ_Density_per_1000ft2": 5,
         "Notes": "Outpatient health care"
     },
     "Speech therapy room": {
-        "Rp": 5.0,
-        "Ra": 0.06,
+        "Rp_cfm_per": 5.0,
+        "Ra_cfm_ft2": 0.06,
         "Default_Occ_Density_per_1000ft2": 20,
         "Notes": "Outpatient health care"
     },
     "Urgent care examination room": {
-        "Rp": 7.5,
-        "Ra": 0.12,
+        "Rp_cfm_per": 7.5,
+        "Ra_cfm_ft2": 0.12,
         "Default_Occ_Density_per_1000ft2": 20,
         "Notes": "Outpatient health care"
     },
     "Urgent care observation room": {
-        "Rp": 5.0,
-        "Ra": 0.06,
+        "Rp_cfm_per": 5.0,
+        "Ra_cfm_ft2": 0.06,
         "Default_Occ_Density_per_1000ft2": 20,
         "Notes": "Outpatient health care"
     },
     "Urgent care treatment room": {
-        "Rp": 7.5,
-        "Ra": 0.12,
+        "Rp_cfm_per": 7.5,
+        "Ra_cfm_ft2": 0.12,
         "Default_Occ_Density_per_1000ft2": 20,
         "Notes": "Outpatient health care"
     },
     "Urgent care triage room": {
-        "Rp": 10.0,
-        "Ra": 0.18,
+        "Rp_cfm_per": 10.0,
+        "Ra_cfm_ft2": 0.18,
         "Default_Occ_Density_per_1000ft2": 20,
         "Notes": "Outpatient health care"
     }
-    
+        
 } # -- End of VRP_TABLE_6_1 --
