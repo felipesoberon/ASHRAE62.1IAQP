@@ -255,19 +255,16 @@ def main(**p):
                 )
                 r['Cbz'] = cbz  
                 design_limit, _, _ = get_design_limit_ugm3(r['compound'])
-                if cbz <= design_limit:
-                    color = '\033[32m'  # Green
-                else:
-                    color = '\033[31m'  # Red
-                reset = '\033[0m'
-                cbz_str = f"{color}{cbz:14.2f}{reset}"
+                
+                cbz_str = f"{cbz:14.2f}"
                 
                 pct = 100.0 * cbz / design_limit if design_limit > 0 else 0.0
+                
                 print(
                     f"{r['compound']:<25} | {r['N']:10.2f} | {r['Co']:16.2f} | "
                     f"{cbz_str} | {design_limit:20.2f} | {pct:8.1f}"
                 )
-
+ 
             except Exception as e:
                 r['Cbz'] = float('nan')  # Optionally store NaN if failed
                 
