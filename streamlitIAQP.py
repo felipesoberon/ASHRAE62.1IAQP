@@ -5,9 +5,9 @@ streamlitIAQP.py
 This Streamlit application provides an interactive interface to the
 Indoor Air Quality Procedure (IAQP) calculator originally implemented
 as a console script.  Users can specify building and system
-parameters – such as occupancy type, floor area, number of people,
+parameters - such as occupancy type, floor area, number of people,
 recirculation settings, filter efficiency and location, and zone air
-distribution effectiveness – and the app computes:
+distribution effectiveness - and the app computes:
 
   * The contaminant generation rates for each design compound
     (ug/h).

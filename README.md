@@ -41,7 +41,7 @@ At least one area flag is mandatory; all others have defaults.
 | -occupancy    | str     | "Classrooms (age 9 plus)" | Must match a Table 6-1 name                  |
 | -area_m2      | float   | —                       | Floor area in square metres                  |
 | -area_ft2     | float   | 90.0 m2 equivalent      | Floor area in square feet (converted)        |
-| -num_people   | int     | derived                 | Override head-count (else density × area)    |
+| -num_people   | int     | derived                 | Override head-count (else density x area)    |
 | -R            | float   | 0.0                     | Recirc ratio (fraction). Ignored if airflow flag given |
 | -Recirc_CFM   | float   | —                       | Recirc airflow in CFM. Program back-calculates R |
 | -Recirc_CMH   | float   | —                       | Same, in m3/h                                |

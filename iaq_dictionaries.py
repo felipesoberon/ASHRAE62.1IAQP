@@ -40,14 +40,14 @@ def get_design_limit_ugm3(compound):
         molar_mass = MOLAR_MASSES.get(key)
         if molar_mass is None:
             raise ValueError(f"Molar mass not found for '{compound}' (ppm to ug/m3)")
-        # ug/m3 = ppm × (molar_mass / 24.45) × 1000
+        # ug/m3 = ppm x (molar_mass / 24.45) x 1000
         limit_ugm3 = limit * (molar_mass / 24.45) * 1000
         return limit_ugm3, "ug/m3", authority
     elif units == "ppb":
         molar_mass = MOLAR_MASSES.get(key)
         if molar_mass is None:
             raise ValueError(f"Molar mass not found for '{compound}' (ppb to ug/m3)")
-        # ug/m3 = ppb × (molar_mass / 24.45)
+        # ug/m3 = ppb x (molar_mass / 24.45)
         limit_ugm3 = limit * (molar_mass / 24.45)
         return limit_ugm3, "ug/m3", authority
     else:
@@ -94,13 +94,13 @@ def get_outdoor_concentration_ugm3(compound, temp_C=25, pressure_atm=1.0):
     if units == "ug/m3":
         return val
     elif units == "ppm":
-        # ug/m3 = ppm × (molar_mass / 24.45) × 1000
+        # ug/m3 = ppm x (molar_mass / 24.45) x 1000
         molar_mass = MOLAR_MASSES.get(compound_lc)
         if molar_mass is None:
             raise ValueError(f"Molar mass not found for conversion of '{compound}' (ppm to ug/m3)")
         return val * (molar_mass / 24.45) * 1000
     elif units == "ppb":
-        # ug/m3 = ppb × (molar_mass / 24.45)
+        # ug/m3 = ppb x (molar_mass / 24.45)
         molar_mass = MOLAR_MASSES.get(compound_lc)
         if molar_mass is None:
             raise ValueError(f"Molar mass not found for conversion of '{compound}' (ppb to ug/m3)")
@@ -164,7 +164,7 @@ emission_rates_ug_m2_h = {
         "1,1,1-trichloroethane": 0.12,
         "Xylene, total": 3.13
     },
-    "Classrooms (ages 5–8)": {
+    "Classrooms (ages 5-8)": {
         "Acetaldehyde": 16.5,
         "Acetone": 37.70,
         "Benzene": 0.21,
@@ -448,7 +448,7 @@ VRP_TABLE_6_1 = {
     "Art classroom": {
         "Rp_cfm_per": 10, "Rp_Lps_per": 5, "Ra_cfm_ft2": 0.18, "Ra_Lps_m2": 0.9, "Default_Occ_Density_per_1000ft2": 20, "DeltaC_ppm": None, "Occupied_Standby_Allowed": None
     },
-    "Classrooms (ages 5–8)": {
+    "Classrooms (ages 5-8)": {
         "Rp_cfm_per": 10, "Rp_Lps_per": 5, "Ra_cfm_ft2": 0.12, "Ra_Lps_m2": 0.6, "Default_Occ_Density_per_1000ft2": 25, "DeltaC_ppm": 900, "Occupied_Standby_Allowed": None
     },
     "Classrooms (age 9 plus)": {
@@ -555,7 +555,7 @@ VRP_TABLE_6_1 = {
     "Computer (not printing)": {
         "Rp_cfm_per": 5, "Rp_Lps_per": 2.5, "Ra_cfm_ft2": 0.06, "Ra_Lps_m2": 0.3, "Default_Occ_Density_per_1000ft2": 4, "DeltaC_ppm": 600, "Occupied_Standby_Allowed": "YES"
     },
-    "Freezer and refrigerated spaces (<50°F [10°C])": {
+    "Freezer and refrigerated spaces (<50F [10C])": {
         "Rp_cfm_per": 10, "Rp_Lps_per": 5, "Ra_cfm_ft2": 0, "Ra_Lps_m2": 0, "Default_Occ_Density_per_1000ft2": 0, "DeltaC_ppm": None, "Occupied_Standby_Allowed": None
     },
     "Manufacturing where hazardous materials are not used": {
@@ -616,7 +616,7 @@ VRP_TABLE_6_1 = {
     "Lobbies": {
         "Rp_cfm_per": 5, "Rp_Lps_per": 2.5, "Ra_cfm_ft2": 0.06, "Ra_Lps_m2": 0.3, "Default_Occ_Density_per_1000ft2": 150, "DeltaC_ppm": 1800, "Occupied_Standby_Allowed": "YES"
     },
-    "Museums (children’s)": {
+    "Museums (children's)": {
         "Rp_cfm_per": 7.5, "Rp_Lps_per": 3.8, "Ra_cfm_ft2": 0.12, "Ra_Lps_m2": 0.6, "Default_Occ_Density_per_1000ft2": 40, "DeltaC_ppm": 1800, "Occupied_Standby_Allowed": None
     },
     "Museums/galleries": {
