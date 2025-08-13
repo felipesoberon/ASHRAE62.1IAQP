@@ -3,21 +3,21 @@ CFM_PER_M3H = 0.589
 
 # Dictionary with compound names (case-insensitive), authority, value, and units
 DESIGN_LIMITS = {
-    "acetaldehyde":     {"authority": "Cal EPA CREL (June 2016)",        "limit": 140,   "units": "ug/m3"},
-    "acetone":          {"authority": "AgBB LCI",                       "limit": 1200,  "units": "ug/m3"},
-    "benzene":          {"authority": "Cal EPA CREL (June 2016)",        "limit": 3,     "units": "ug/m3"},
-    "dichloromethane":  {"authority": "Cal EPA CREL (June 2016)",        "limit": 400,   "units": "ug/m3"},
-    "formaldehyde":     {"authority": "Cal EPA 8-hour CREL (2004)",      "limit": 33,    "units": "ug/m3"},
-    "naphthalene":      {"authority": "Cal EPA CREL (June 2016)",        "limit": 9,     "units": "ug/m3"},
-    "phenol":           {"authority": "AgBB LCI",                       "limit": 10,    "units": "ug/m3"},
-    "tetrachloroethylene": {"authority": "Cal EPA CREL (June 2016)",     "limit": 35,    "units": "ug/m3"},
-    "toluene":          {"authority": "Cal EPA CREL (June 2016)",        "limit": 300,   "units": "ug/m3"},
-    "1,1,1-trichloroethane": {"authority": "Cal EPA CREL (June 2016)",   "limit": 1000,  "units": "ug/m3"},
-    "xylene, total":    {"authority": "AgBB LCI",                       "limit": 500,   "units": "ug/m3"},
-    "carbon monoxide":  {"authority": "U.S. EPA NAAQS",                 "limit": 9,     "units": "ppm"},
-    "pm2.5":            {"authority": "U.S. EPA NAAQS (annual mean)",   "limit": 12,    "units": "ug/m3"},
-    "ozone":            {"authority": "U.S. EPA NAAQS",                 "limit": 70,    "units": "ppb"},
-    "ammonia":          {"authority": "Cal EPA CREL (June 2016)",        "limit": 200,   "units": "ug/m3"},
+    "acetaldehyde":          {"authority": "Cal EPA CREL (June 2016)",        "limit": 140,   "units": "ug/m3"},
+    "acetone":               {"authority": "AgBB LCI",                        "limit": 1200,  "units": "ug/m3"},
+    "benzene":               {"authority": "Cal EPA CREL (June 2016)",        "limit": 3,     "units": "ug/m3"},
+    "dichloromethane":       {"authority": "Cal EPA CREL (June 2016)",        "limit": 400,   "units": "ug/m3"},
+    "formaldehyde":          {"authority": "Cal EPA 8-hour CREL (2004)",      "limit": 33,    "units": "ug/m3"},
+    "naphthalene":           {"authority": "Cal EPA CREL (June 2016)",        "limit": 9,     "units": "ug/m3"},
+    "phenol":                {"authority": "AgBB LCI",                        "limit": 70,    "units": "ug/m3"}, #changed from 10 ug/m3 in addendum q (31 Oct 2024)
+    "tetrachloroethylene":   {"authority": "Cal EPA CREL (June 2016)",        "limit": 35,    "units": "ug/m3"},
+    "toluene":               {"authority": "Cal EPA CREL (June 2016)",        "limit": 300,   "units": "ug/m3"},
+   #"1,1,1-trichloroethane": {"authority": "Cal EPA CREL (June 2016)",        "limit": 1000,  "units": "ug/m3"}, removed in addendum q (31 Oct 2024)
+    "xylene, total":         {"authority": "AgBB LCI",                        "limit": 500,   "units": "ug/m3"},
+    "carbon monoxide":       {"authority": "U.S. EPA NAAQS",                  "limit": 9,     "units": "ppm"},    # ~10310 ug/m3 @25C,1 atm
+    "pm2.5":                 {"authority": "U.S. EPA NAAQS (annual mean)",    "limit": 12,    "units": "ug/m3"},
+    "ozone":                 {"authority": "U.S. EPA NAAQS",                  "limit": 70,    "units": "ppb"},    # ~137 ug/m3 @25C,1 atm
+    "ammonia":               {"authority": "Cal EPA CREL (June 2016)",        "limit": 200,   "units": "ug/m3"},
 }
 
 
